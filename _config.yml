@@ -1,7 +1,8 @@
+encoding: utf-8
 title: Dong-sik Choi
-description: Long Form Jekyll theme built with SASS / COMPASS / SUSY
+description: Data Science study
 
-url: http://brianmaierjr.github.com/long-haul
+url: http://dongsikchoi.github.io
 baseurl: ""
 paginate_path: "blog/page:num/"
 permalink: blog/:title/
@@ -20,13 +21,10 @@ navigation:
     url: /contact
 
 social:
-  github: brianmaierjr
-  twitter: brianmaierjr
-  facebook: brianmaierjr
-  email: brimaidesigns@gmail.com
-  linkedin: brianmaierjr
+  github: dongsikchoi
+  email: dongsikchoi.dev@gmail.com
 
-google_analytics: "UA-58263416-1"
 
-disqus:
-    shortname: my-disqus-shortname
+
+
+timezone: Asia/Seoul
