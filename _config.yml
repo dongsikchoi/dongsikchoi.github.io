@@ -17,7 +17,7 @@ navigation:
     url: /index.html
   - title: About
     url: /about
-  - title: Contact
+  - title: Posts
     url: /contact
 
 social:
