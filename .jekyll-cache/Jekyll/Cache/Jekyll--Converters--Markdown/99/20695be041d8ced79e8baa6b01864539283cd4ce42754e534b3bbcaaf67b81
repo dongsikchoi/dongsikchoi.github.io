@@ -1,0 +1,13 @@
+I"-<div id="articles">
+  <h1>Articles</h1>
+  <ul class="posts noList">
+    
+      <li>
+      	<span class="date">27 Sep 2020</span>
+      	<h3><a href="/blog/Artificial-Neural-Network-Algorithm-for-Online-Glucose-Prediction-from-Continuous-Glucose-Monitoring-Review/">Artificial Neural Network Algorithm for Online Glucose Prediction from Continuous Glucose Monitoring Review</a></h3>
+      	<p class="description">연속혈당측정기(CGM)로부터 혈당을 예측하기 위한 인공신경망 알고리즘 논문 리뷰</p>
+      </li>
+    
+  </ul>
+</div>
+:ET

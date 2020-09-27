@@ -8,7 +8,9 @@
  */
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:300,400,800);
 @import url(https://fonts.googleapis.com/css?family=PT+Serif:400,700,400italic,700italic);
+@import url(https://fonts.googleapis.com/earlyaccess/jejugothic.css);
 @import url(https://fonts.googleapis.com/earlyaccess/nanumgothic.css);
+
 html {
   line-height: 1.15;
   /* 1 */
@@ -124,8 +126,9 @@ code,
 kbd,
 samp {
   font-family: monospace, monospace;
+  line-height: 1;
   /* 1 */
-  font-size: 1em;
+  font-size: 0.75em;
   /* 2 */ }
 
 /**
@@ -403,8 +406,8 @@ body {
 
 h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6 {
   margin: .5rem 0 1.5rem;
-  /* font-family: "Open Sans", Helvetica, Arial, sans-serif; */ 
-  font-family: 'Nanum Gothic', sans-serif;}
+  /*font-family: "Open Sans", Helvetica, Arial, sans-serif;*/
+  font-family: 'Nanum Gothic',serif;}
 
 h1, .h1 {
   font-size: 2em;
@@ -457,12 +460,14 @@ h4, .h4 {
     line-height: 1.22222222; } }
 
 blockquote {
+  text-align: center;
   font-size: 1.25em;
   line-height: 1.25;
   padding: 0; }
 
 @media (min-width: 43.75em) {
   blockquote {
+    text-align: center;
     font-size: 1.5em;
     line-height: 1.45833333; } }
 
@@ -678,8 +683,8 @@ html {
   box-sizing: inherit; }
 
 body {
+  font-family: 'Nanum Gothic',serif;
   /*font-family: "PT Serif", Georgia, Times, serif;*/
-  font-family: 'Nanum Gothic',sans-serif;
   line-height: 1.75;
   font-size: 112.5%;
   color: #111;
@@ -835,6 +840,7 @@ POST STYLING
   margin-bottom: 1rem; }
 
 .post blockquote {
+  text-align: center;
   clear: both;
   margin: 2.5em 0;
   padding: 0;
@@ -863,7 +869,7 @@ POST STYLING
   text-align: center;
   color: gray;
   /*font-family: "Open Sans", Helvetica, Arial, sans-serif;*/
-  font-family: 'Nanum Gothic',sans-serif;
+  font-family: 'Nanum Gothic',serif;
   font-weight: 300; }
 
 .post figure {
@@ -908,7 +914,7 @@ POST NAV STYLING
     overflow: hidden;
     position: relative;
     /*font-family: "Open Sans", Helvetica, Arial, sans-serif;*/
-    font-family: 'Nanum Gothic',sans-serif;
+    font-family: 'Nanum Gothic',serif;
     font-weight: 800;
     font-size: .9em;
     text-transform: uppercase;
